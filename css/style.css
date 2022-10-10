@@ -1,0 +1,160 @@
+body{
+    font-family: 'Bebas Neue', cursive;
+    background-color: rgb(27, 62, 90);
+}
+
+h1{
+    text-align: center;
+    color: coral;
+}
+
+canvas{ 
+    border: thick double goldenrod;
+    background-color: white;
+    display: block;
+    margin: 0 auto;
+}
+
+.colors{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+section>div{
+    height: 35px;
+    width: 35px;
+    margin: 1em;
+    border-radius: 50px;
+}
+
+.blue{
+    background-color: blue;
+}
+.red{
+    background-color: red;
+}
+.hotpink{
+    background-color: hotpink;
+}
+.green{
+    background-color: green;
+}
+.greenyellow{
+    background-color: greenyellow;
+}
+.orange{
+    background-color: orange;
+}
+.orangered{
+    background-color: orangered;
+}
+.yellow{
+    background-color: yellow;
+}
+.purple{
+    background-color: purple;
+}
+.pink{
+    background-color: pink;
+}
+.bluesky{
+    background-color: skyblue;
+}
+.brown{
+    background-color: brown;
+}
+.burlywood{
+    background-color: burlywood;
+}
+.grey{
+    background-color: grey;
+}
+.black{
+    background-color: black;
+}
+.white{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.lines{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.line{
+    background-color:  rgb(27, 62, 90) ;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fa-pencil-alt{
+    color: cornsilk;
+}
+
+.pencil-little{
+    font-size: 10px;
+}
+.pencil-middle{
+    font-size: 20px;
+}
+.pencil-big{
+    font-size: 30px;
+}
+.pencil-fat{
+    font-size: 40px;
+}
+.pencil-fatest{
+    font-size: 50px;
+}
+
+.save{
+    display: block;
+    margin: 0 auto;
+    padding: 1em;
+    background-color: coral;
+    color: rgb(27, 62, 90);
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+}
+
+.thumbnail{
+    width: 200px;
+    height: 130px;
+}
+
+#saved-pics{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    width: 55%;
+}
+
+.thumbnail{
+    margin: 1em;
+    border: thick double goldenrod;
+}
+
+.title-saved{
+    text-align: center;
+    color: coral;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.buttons>button{
+    margin: 1em;
+}

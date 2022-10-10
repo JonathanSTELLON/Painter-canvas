@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painter</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <script src="js/main.js" type="module"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <h1>Painter Canvas</h1>
+
+    <canvas id="painter" width="1000" height="650"></canvas>
+
+    <h2 class="title-saved">Vos chefs d'oeuvres enregistrés</h2>
+
+    <div id="saved-pics"></div>
+
+    <div class="buttons">
+        <button class="save"><i class="far fa-share-square"></i> Enregistrer</button>
+        <button id="refresh" class="save"><i class="fas fa-sync-alt"></i> Recommencer</button>
+    </div>
+    
+
+    <section class="colors">
+        <div class="color black" data-color="black"></div>
+        <div class="color blue" data-color="blue"></div>
+        <div class="color bluesky" data-color="skyblue"></div>
+        <div class="color red" data-color="red"></div>
+        <div class="color green" data-color="green"></div>
+        <div class="color greenyellow" data-color="greenyellow"></div>
+        <div class="color orange" data-color="orange"></div>
+        <div class="color orangered" data-color="orangered"></div>
+        <div class="color yellow" data-color="yellow"></div>
+        <div class="color purple" data-color="purple"></div>
+        <div class="color hotpink" data-color="hotpink"></div>
+        <div class="color pink" data-color="pink"></div>
+        <div class="color grey" data-color="grey"></div>
+        <div class="color burlywood" data-color="burlywood"></div>
+        <div class="color brown" data-color="brown"></div>
+        <div class="color white" data-color="white"><i class="fas fa-eraser"></i></div>
+    </section>
+
+    <section class="lines">
+        <div class="line little" data-line="1"><i class="fas fa-pencil-alt pencil-little"></i></div>
+        <div class="line middle" data-line="4"><i class="fas fa-pencil-alt pencil-middle"></i></div>
+        <div class="line big" data-line="7"><i class="fas fa-pencil-alt pencil-big"></i></div>
+        <div class="line fat" data-line="10"><i class="fas fa-pencil-alt pencil-fat"></i></div>
+        <div class="line fatest" data-line="100"><i class="fas fa-pencil-alt pencil-fatest"></i></div>
+    </section>
+
+    
+</body>
+</html>
